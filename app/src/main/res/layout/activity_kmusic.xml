@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/bottom_sheet_behavior"
+    tools:context=".KMusicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/a5" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="Rainbow Entertainment"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Lajpat,Kanpur"
+                android:textColor="#050505"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="253dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="Rs.15,000 For 1 Hour"
+                android:textColor="#3A3939"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text=" Phone No.- 78393582896"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/o"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="-8dp"
+                android:text="____________________________________________________________"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ii5" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="Music Lovers"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Barra,Kanpur"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="Rs.20,000 For 1 Hour"
+                android:textColor="#3A3939"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text=" Phone No.- 78393582896"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/k"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+        </LinearLayout>
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/bottom_sheet_behavior"
+    tools:context=".KVenueActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/_2708_gallery_01_170731084245_r_" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/oip__6_" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="Royal Garden"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Kanpur"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="450 per plate (taxes extra)              Veg price
+500 per plate (taxes extra)               Non Veg "
+                android:textColor="#3A3939"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Capacity = 500 to 1500 person"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/o"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="-8dp"
+                android:text="____________________________________________________________"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/grand_continental_hotel_allahabad4" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/grand_continental_hotel_grand_continental_hotel_viceroy_15" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="Grand Continental Hotel"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Kanpur"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="1500 per plate (taxes extra)              Veg price
+2000 per plate (taxes extra)               Non Veg "
+                android:textColor="#3A3939"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Capacity=1500 to 3000 Guests"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/k"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="-8dp"
+                android:text="____________________________________________________________"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/_01307031248182420_01c70b1ee81711e9ac640242ac110004" />
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/banquet_venus" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="Hotel Galaxy"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView222"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView333"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Kanpur"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="1500 per plate (taxes extra)              Veg price 2300 per plate (taxes extra)               Non Veg "
+                android:textColor="#3A3939"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Capacity= 500 to 1000 Guests"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/m"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="-8dp"
+                android:text="____________________________________________________________"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

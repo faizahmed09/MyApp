@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".KPdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookingFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KMusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KMehndiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KBrideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KGroomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KMakeupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KPhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KVenueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KCateringActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KGiftsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KJwelleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KDecoratorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pluselevenKActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BwearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MehndiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CateringActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JewelleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DecoratorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".food"
+            android:exported="false" />
+        <activity
+            android:name=".gift"
+            android:exported="false" />
+        <activity
+            android:name=".planning"
+            android:exported="false" />
+        <activity
+            android:name=".groom"
+            android:exported="false" />
+        <activity
+            android:name=".meakup"
+            android:exported="false" />
+        <activity
+            android:name=".VenueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlusElevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CardsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KanpurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PraygActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

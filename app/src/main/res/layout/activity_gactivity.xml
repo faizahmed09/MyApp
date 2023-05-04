@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/bottom_sheet_behavior"
+    tools:context=".DecoratorsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/p_wedding_favour_tray_with_sweet_treats_and_personalized_mugs_152902_m" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/arnn3zwexg3dypw480x360" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="FERNS N PETALS"
+                android:textAlignment="viewStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Tashkand Marg, Prayagraj "
+                android:textAlignment="center"
+                android:textColor="#050505"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="297dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="All Wedding Gifts are available in our store." />
+
+            <TextView
+                android:layout_width="309dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@color/ic_launcher_background"
+                android:text="Phone No. - 78393582896 (Click to call)"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/o"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="-8dp"
+                android:text="____________________________________________________________"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_roses_with_truffle_cake_1" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/b83a336492a2bf0355ac167acf02d126" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="Archies"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Meerapur,Prayagraj"
+                android:textAlignment="center"
+                android:textColor="#050505"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="Archies presents an exhaustive collection of exclusive gifts."
+                android:textColor="#3A3939"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:text="Phone No.- 7839358269 (Click to call)"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/k"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="-8dp"
+                android:text="____________________________________________________________"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="38dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/_2f734a10a9ad4570c1ef362315aaa98" />
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="412dp"
+                    android:layout_height="227dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/wedding_gift_1_1024x844" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="5dp"
+                android:text="Shubham Gift Corner"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView222"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView333"
+                android:layout_width="45dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/lo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-40dp"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="34sp"
+                android:text="Dhoomanganj,Prayagraj"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="301dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="All types of Wedding gifts are available."
+                android:textColor="#3A3939"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:text="Phone No.- 7839358269 (Click to call)"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/m"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-25dp"
+                android:text="BOOK NOW" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

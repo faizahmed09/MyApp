@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:contentDescription="@string/bottom_sheet_behavior"
-    tools:context=".BwearActivity">
+    tools:context=".KBrideActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

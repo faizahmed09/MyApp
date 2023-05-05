@@ -14,6 +14,20 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ConfirmedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyOTPActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SendOTPActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ConfirmBookActivity"
+            android:exported="false" />
+        <activity
             android:name=".KPdActivity"
             android:exported="false" />
         <activity
@@ -36,6 +50,9 @@
             android:exported="false" />
         <activity
             android:name=".KPhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MActivity"
             android:exported="false" />
         <activity
             android:name=".KVenueActivity"
@@ -63,9 +80,6 @@
             android:exported="false" />
         <activity
             android:name=".MehndiActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MActivity"
             android:exported="false" />
         <activity
             android:name=".PdActivity"
@@ -136,6 +150,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class BwearActivity extends AppCompatActivity {
 
-    Button b1,b2,b3;
+    Button b1,b2;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -20,7 +20,6 @@ public class BwearActivity extends AppCompatActivity {
 
         b1 = findViewById(R.id.o);
         b2 = findViewById(R.id.k);
-        b3 = findViewById(R.id.m);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,13 +29,6 @@ public class BwearActivity extends AppCompatActivity {
         });
 
         b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(BwearActivity.this, BookingFormActivity.class));
-            }
-        });
-
-        b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(BwearActivity.this, BookingFormActivity.class));

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "162557929021",
+    "project_id": "band-baja-barat-60031",
+    "storage_bucket": "band-baja-barat-60031.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162557929021:android:d10d0f5da11f09221c2c54",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162557929021-bdfu3mvnviull1m4uvoiuod19kddni62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGs0G7anYi1jOfgGl9dEUbymvA-bL1fho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162557929021-bdfu3mvnviull1m4uvoiuod19kddni62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
